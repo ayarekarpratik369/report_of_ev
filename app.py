@@ -12,4 +12,4 @@ def home():
     return open("main.html").read()
 @app.get("/report")
 def get_report():
-    return FileResponse("EV_Fault_Detection_Final_Report.pdf")
+    return FileResponse("EV_Fault_Detection_final_Report.pdf")
